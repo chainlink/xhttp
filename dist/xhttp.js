@@ -492,7 +492,7 @@ module.exports = function (promiseConstructor) {
         options.username,
         options.password
       )
-
+      xhr.withCredentials = true; 
       // Assign headers
       utils.forOwn(options.headers, function (value, key) {
         xhr.setRequestHeader(key, value)

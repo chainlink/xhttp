@@ -18,7 +18,7 @@
     "browser"
   ],
  "dependencies": {
-    "es6-promise": "latest"
+    "es6-promise": "3.0.2"
   },
   "devDependencies": {
     "browserify": "latest",
